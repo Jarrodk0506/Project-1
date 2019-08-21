@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css"
+    integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg=="
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Lora|Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <title>Noms.com</title>
+</head>
+
+<body>
+
+
+  <div class="grid-y small-grid-frame">
+    <div id="brewHead" class="cell shrink header medium-cell-block-container">
+      <div class="grid-x">
+
+        <div class="cell medium-3">
+          <img id="logo" src="assets\Images\noms logo.png" alt="logo">
+        </div>
+
+        <div class="cell medium-6">
+          <h1>Noms.com</h1>
+        </div>
+
+      </div>
+      <div data-sticky-container>
+        <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+
+          <div class="title-bar-left">
+            <li><a class="navText" href="index.html">Search for Recipes</a></li>
+          </div>
+
+          <div class="title-bar-center">
+            <li><a class="navText" href="thirsty.html">Search for a Brewery</a></li>
+          </div>
+
+          <div class="title-bar-right">
+       
+            <li><a class="navText" href="landing.html">Main Page</a></li>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br><br>
+
+  <div class="cell medium-auto medium-cell-block-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-4 medium-cell-block-y">
+        <h2 class="brewFont">Thirsty?</h2>
+        <br>
+
+        <div class="input-group">
+          <input class="input-group-field" id="brewery-input" type="text" placeholder="Enter your City!">
+          <div class="input-group-button">
+            <input type="button" class="button brewFont" id="brewery-search" value="Search">
+          </div>
+        </div>
+       
+      </div>
+
+
+      <div class="cell medium-8 medium-cell-block-y">
+
+        <h2 class="brewFont">Breweries near you!</h2>
+        <div class="recipeContainer">
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div id="brewFoot" class="cell shrink footer">
+    <img id="logoFoot" src="assets\Images\noms logo.png" alt="logo">
+  </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
+    integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw=="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
